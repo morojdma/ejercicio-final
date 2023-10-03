@@ -1,0 +1,214 @@
+h1,h2,h3,h4,h5, button, .amiibo-name{
+    font-family: 'Bitter', serif;
+
+}
+
+.btn{
+    background-color: rgba(235, 211, 241, 0.692);
+    
+}
+.btn:hover{
+
+    color: rgb(86, 86, 209);
+    transform: scale(1.05);
+    background-color: rgba(246, 246, 246, 0.658);
+
+}
+
+#navbar{
+    z-index: 1;
+    background-color: rgba(105, 86, 163, 0.66);
+}
+
+#separator-ribbon1{
+    background-color: transparent;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    
+ 
+}
+#separator-ribbon1 .content{
+    background-color: rgba(105, 86, 163, 0.66);
+    height: 80px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    margin-bottom: -10px;
+}
+
+#ribbon{
+    background-image: url(/img/geometricbg.jpg);
+}
+
+#ribbon::after{
+    content: '';
+    background-color: transparent;
+    display: block;
+    height: 30px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+   
+}
+
+
+
+#birthday{
+    
+    background-color: rgba(135, 185, 231, 0.756);
+    position: relative;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    
+}
+
+
+#birthday img{
+    position: relative;
+    margin-top: -30px;
+}
+
+#separator-ribbon2{
+    background-color: transparent;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    margin-bottom: -30px;
+}
+#separator-ribbon2 .content{
+    background-color: rgba(105, 86, 163, 0.66);
+    height: 80px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-top: -20px;
+}
+
+#separator-ribbon3{
+    background-color: transparent;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    
+    
+}
+#separator-ribbon3 .content{
+    background-color: rgba(105, 86, 163, 0.66);
+    height: 80px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-top: -30px;
+}
+
+
+#games{
+    display: block;
+    position: relative;
+    background-image: url(../img/fondofox.jpg);
+    margin-bottom: -30px;
+    
+    
+}
+
+.card-border{
+    background-color: rgba(172, 205, 235, 0.692);
+    border: solid 10px rgba(235, 211, 241, 0.692);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+    
+}
+
+
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+.text-shadow{
+    text-shadow: 0 3px 3px rgba(0,0,0,0.6);
+}
+#separator-amiibos{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    margin-top: -50px;
+}
+
+
+#separator-amiibos-footer{
+    height: 20vw;
+}
+
+
+#amiibos{
+    background: url(../img/bg-02-option.png),url(../img/posible.png);
+    background-repeat: no-repeat, repeat;
+    background-position: bottom center, center center;
+    background-size: 100%, auto;
+}
+.amiibo{
+    cursor: pointer;
+    transition: all ease-out 0.2s;
+}
+.amiibo:hover{
+    transform: scale(1.05);
+}
+
+.amiibo-name{
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.cards:hover{
+    background-color: rgba(228, 222, 222, 0.4) ;
+    transform: scale(1.02);
+    
+}
+
+.card-1{
+    background-color: rgba(220, 227, 123, 0.441);
+
+}
+
+.card-2{
+    background-color: rgba(119, 179, 227, 0.441);
+
+}
+
+.card-3{
+    background-color: rgba(231, 97, 97, 0.441);
+
+}
+
+.card-4{
+    background-color: rgba(59, 171, 74, 0.441);
+
+}
+
+#play{   
+    background: url(../img/bg-01.png);
+    background-repeat:  repeat;
+    background-position: center;
+    background-size:  auto;
+    
+    
+}
+
+
+#footer{
+    background: url(../img/bg-04.png);
+    opacity: 200%;
+    margin-top: -70px;
+   
+    
+}
