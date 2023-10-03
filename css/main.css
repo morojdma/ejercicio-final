@@ -38,7 +38,7 @@ h1,h2,h3,h4,h5, button, .amiibo-name{
 }
 
 #ribbon{
-    background-image: url(img/geometricbg.jpg);
+    background-image: url(/img/geometricbg.jpg);
 }
 
 #ribbon::after{
